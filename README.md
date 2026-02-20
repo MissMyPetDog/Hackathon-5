@@ -80,6 +80,8 @@ The dataset contains realistic embedded signals — scope drift, verbal approval
 ### Required Stack
 - **v0** (v0.dev) for UI scaffolding — either via chat or IDE integration
 - **Vercel AI SDK** (`ai` package) for agent orchestration
+- **Granola** — you must use Granola for prompting the agent (e.g., defining goals, instructions, or agent behavior)
+- **Email capability** — the agent must be able to send you an email (e.g., to report findings, alerts, or portfolio summaries)
 - **Deployment** to Vercel (strongly encouraged)
 
 ### Key AI SDK Concepts
@@ -117,6 +119,8 @@ How you design your tools, what data they access, and how many steps you allow i
 
 ### Implementation Quality — 20 pts
 - Built with v0 + Vercel AI SDK
+- Uses Granola for prompting the agent
+- Agent can send you an email (e.g., report, alert, or summary)
 - Handles the full dataset efficiently (~18K records)
 - Responds within a reasonable timeframe
 - Deployed and accessible
