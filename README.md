@@ -143,6 +143,8 @@ How you design your tools, what data they access, and how many steps you allow i
 2. **v0 Proof** — Project link or IDE prompt history
 3. **Technical Summary (1 page)** — Architecture, tool design, model strategy, and what you'd improve
 
+**Submit your project:** [Pulse AI NYC Hackathon — Devpost](https://pulse-ai-nyc-hackathon-hvac.devpost.com/)
+
 ---
 
 ## What NOT to Build
